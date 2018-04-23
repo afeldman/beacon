@@ -16,5 +16,5 @@ check_device("hci0")
 
 bc = Beacon("hci0")
 bc.config()
-bc.start("01","7c") // dai
+bc.start("00","4c") 
 ```
